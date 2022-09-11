@@ -5,7 +5,9 @@
 .row{
 	justify-content: center;
 }
-
+h1{
+	font-family: 'Special Elite', cursive;
+}
 #div1,#div2,#div3{
 position: relative;
 	font-family: 'Special Elite', cursive;
@@ -14,7 +16,8 @@ position: relative;
 	border: 2px solid black;
 	color: black;
 	padding:0;
-	background: #A5ABA9
+	background: #A5ABA9;
+	box-shadow: 4px 4px 7px 7px  ;
 }
 
 .p1{
@@ -37,6 +40,8 @@ top:-2px;
 
 div{
 margin:25px;
+display: flex ;
+flex-wrap: wrap;
 }
 @media (min-width: 992px)
 {
